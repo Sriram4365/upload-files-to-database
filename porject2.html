@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>PDF Upload and Download</title>
+  </head>
+  <body>
+    <h1>Upload PDF File</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      <input type="file" name="fileToUpload" id="fileToUpload">
+      <input type="submit" value="Upload PDF" name="submit">
+    </form>
+    <h1>Download PDF File</h1>
+    <p>Click the link below to download the PDF file:</p>
+    <a href="https://cloud.docker.com/repository/docker/myrepo/myfile.pdf" download>Download PDF</a>
+  </body>
+</html>
